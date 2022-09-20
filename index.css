@@ -26,3 +26,9 @@ body {
   .icon {
     font-size: 4rem;
   }
+
+.emoji{
+    display:grid;
+    grid-template-rows: repeat(2, 1fr);
+    
+}
