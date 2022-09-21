@@ -32,5 +32,10 @@ body {
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr);
     gap:20px;
+}
 
+.emoji{
+    display:flex;
+    flex:1;
+    justify-content: space-evenly;
 }
