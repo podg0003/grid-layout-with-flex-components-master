@@ -39,5 +39,5 @@ body {
     flex-wrap: wrap;
     flex-direction:column;
     justify-content: space-evenly;
-    align-items: center stretch;
+    align-items: stretch;
 }
