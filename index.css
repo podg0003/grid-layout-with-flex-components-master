@@ -6,7 +6,6 @@ body {
   .emoji {
     border: 1px solid #222;
     border-radius: 8px;
-    border-width: 500px;
     padding: 1rem;
   }
   
@@ -40,5 +39,5 @@ body {
     flex-wrap: wrap;
     flex-direction:column;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: center stretch;
 }
