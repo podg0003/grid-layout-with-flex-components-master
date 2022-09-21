@@ -48,6 +48,6 @@ body {
 
 .emojis .icon{order:-1}
 
-.emoji a{
+a{
   align-items:flex-end;
 }
