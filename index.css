@@ -6,6 +6,7 @@ body {
   .emoji {
     border: 1px solid #222;
     border-radius: 8px;
+    border-width: 200px;
     padding: 1rem;
   }
   
