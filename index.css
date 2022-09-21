@@ -1,12 +1,15 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #222;
+    width: 850px;
   }
   
   .emoji {
     border: 1px solid #222;
     border-radius: 8px;
     padding: 1rem;
+    
+    
   }
   
   .emoji h2 {
@@ -21,10 +24,12 @@ body {
     color: white;
     padding: 1rem;
     border-radius: 8px;
+
   }
   
   .icon {
     font-size: 4rem;
+    text-align: center;
   }
 
 .emojis{
@@ -38,6 +43,11 @@ body {
     display:flex;
     flex-wrap: wrap;
     flex-direction:column;
-    justify-content: space-evenly;
-    align-items: stretch;
+    justify-content: space-around;
+}
+
+.emojis .icon{order:-1}
+
+.emoji a{
+  align-items:flex-end;
 }
