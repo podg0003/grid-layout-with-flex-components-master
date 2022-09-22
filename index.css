@@ -8,7 +8,9 @@ body {
     border: 1px solid #222;
     border-radius: 8px;
     padding: 1rem;
-    
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:column;
     
   }
   
@@ -25,6 +27,7 @@ body {
     padding: 1rem;
     border-radius: 8px;
 
+
   }
   
   .icon {
@@ -39,15 +42,11 @@ body {
     gap:20px;
 }
 
-.emoji{
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction:column;
-    justify-content: space-around;
+
+.emojis .icon{
+  order:-1;
 }
 
-.emojis .icon{order:-1}
-
-a{
-  align-items:flex-end;
+.emoji p {
+  flex-grow: 2;
 }
